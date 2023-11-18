@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url("./background-1.jpg");
+    background-size: cover;
+
+}
+
+#title-container {
+    background-color: white;
+    width: 30%;
+    padding: 10px 0;
+    border-radius: 10px;
+    margin: 50px auto;
+    text-align: center;
+    box-shadow: 0 0 5px black;
+}
+
+#game-container {
+    max-width: 420px;
+    max-height: 420px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#game-container div {
+    width: 140px;
+    height: 140px;
+    background: url("./rock-1.png");
+    background-size: cover;
+}
+
+#game-container div img {
+    width: 140px;
+    height: 140px;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
